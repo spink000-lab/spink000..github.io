@@ -1,0 +1,48 @@
+/* Layout styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ 
+header, footer {
+    text-align: center;
+    padding: 10px;
+}
+ 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+ 
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.float-right {
+    float: right;
+    width: 200px;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.overflow-test {
+    overflow: auto;
+    max-height: 100px;
+}
+ 
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,31 @@
+/* Element styles */
+body {
+    font-family: Arial, sans-serif;
+    color: pink;
+}
+
+header {
+    background: pink;
+    color: black;
+}
+
+nav ul li a {
+    color: pink;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.class-item {
+    background: pink;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background: pink;
+    color: black;
+}
